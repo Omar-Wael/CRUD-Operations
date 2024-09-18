@@ -1,0 +1,18 @@
+/* style.scss */
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Table Styling */
+.table {
+    margin-top: 20px;
+}
+
+/* RTL Support */
+body[dir="rtl"] {
+    .table {
+        text-align: right;
+    }
+}
